@@ -1,8 +1,7 @@
-import torch
-from transformers import AutoTokenizer, AutoModelForQuestionAnswering
+# أزل استيراد transformers و torch
 from nltk.tokenize import sent_tokenize
 import random
-import fitz
+import fitz  # PyMuPDF
 import pptx
 
 # تحميل نموذج BioBERT
