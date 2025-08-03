@@ -1,8 +1,7 @@
 python-telegram-bot==20.3
 transformers==4.41.1
-torch
-pdfminer.six
-python-pptx
-nltk
-scipy
-python-dotenv
+torch==2.0.1
+pdfminer.six==20221105
+python-pptx==0.6.21
+PyMuPDF==1.23.8
+nltk==3.8.1
